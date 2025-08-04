@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Lover</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-left">
+                <span><i class="fa-solid fa-clock"></i> Open hour - 10 am - 11 pm</span>
+                <span><i class="fa-solid fa-phone"></i> +00 123 456 789</span>
+                <span><i class="fa-solid fa-envelope"></i> support@example.com</span>
+            </div>
+            <div class="top-right">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="fancy-logo">Food Lover</div>
+            <nav>
+                <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                <label for="menu-toggle" class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="nav-links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#menu">MENU <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#book">RESERVATION</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h2>
+                    Taste the flavours of <span>SOUTH INDIA</span>
+                </h2>
+                <p>Order from a weekly menu of tasty meals at the click of a button.
+        Say goodbye to meal planning and grocery shopping!</p>
+
+                <div class="hero-buttons">
+                    <a href="#book" class="btn-primary">Book Table</a>
+                    <a href="#menu" class="btn-secondary">Our Menu</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/roasted-chicken Hero Image.png" alt="Roasted Chicken">
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="title-accent"></div>
+                <div class="about-label">About</div>
+                <h2 class="about-title">FOOD LOVER</h2>
+                <p class="about-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel 
+                    sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed varius nisl 
+                    a quis laoreet at tincidunt lectus volutpat. Etiam semper ligula 
+                    sollicituil ante vehicula pellentesqsapien.
+                </p>
+                <p class="about-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel 
+                    sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed varius nisl 
+                    a quis laoreet at tincidunt lectus volutpat. Etiam semper ligula 
+                    sollicituil ante vehicula pellentesqsapien.
+                </p>
+                <a href="#" class="read-more-btn">Read More</a>
+            </div>
+            
+            <div class="about-image-box">
+                <div class="about-image-bg"></div>
+                <img src="images/Food.jpg" alt="South Indian Thali" class="about-image" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+
+    <section class="menu-section" id="menu">
+        <i class='bx  bx-fork-knife' ></i>
+        <h3 class="menu-subtitle">Food Lover</h3>
+        <h2 class="menu-title">Restaurant Menu</h2>
+        
+        <div class="menu-filters">
+            <button class="filter-btn">All Dishes</button>
+            <button class="filter-btn active">Dinner</button>
+            <button class="filter-btn">Lunch</button>
+            <button class="filter-btn">Drinks</button>
+            <button class="filter-btn">Starters</button>
+        </div>
+        
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1648995293978-8b33ec0b7aa0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Steak">
+                <div class="menu-item-overlay">
+                    <h4 class="menu-item-title">Steak</h4>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1736451179774-85889c407d02?q=80&w=759&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Kabab">
+                <div class="menu-item-overlay">
+                    <h4 class="menu-item-title">Kabab</h4>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1598103442097-8b74394b95c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Chicken">
+                <div class="menu-item-overlay">
+                    <h4 class="menu-item-title">Chicken</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals -->
+
+    <div class="deals-container">
+        
+        <div class="deals-header">Deals Today</div>
+        <h1 class="deals-title">Today Special Dish</h1>
+        
+        <div class="dishes-grid">
+            <div class="dish-card">
+                <img src="/images/Chicken malai.png" alt="Chicken Malai" class="dish-image">
+                <h3 class="dish-name">Chicken Malai</h3>
+                <p class="dish-description">Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum</p>
+                <div class="price-info">Starts at <span class="price">₹249</span></div>
+            </div>
+            
+            <div class="dish-card">
+                <img src="/images/Aloo kafta.png" alt="Aloo Kofta" class="dish-image">
+                <h3 class="dish-name">Aloo Kofta</h3>
+                <p class="dish-description">Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum</p>
+                <div class="price-info">Starts at <span class="price">₹299</span></div>
+            </div>
+            
+            <div class="dish-card">
+                <img src="/images/Hakka noodles.png" alt="Hakka Noodles" class="dish-image">
+                <h3 class="dish-name">Hakka Noodles</h3>
+                <p class="dish-description">Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum</p>
+                <div class="price-info">Starts at <span class="price">₹209</span></div>
+            </div>
+        </div>
+        
+        <div class="pagination-dots">
+            <div class="dot"></div>
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    <!-- Booking Form -->
+<div class="booking-background" id="book">
+    <div class="booking-container">
+        <div class="title-accent"></div>
+        <h1 class="booking-title">Book Your Table</h1>
+        
+        
+        <form class="booking-form">
+            <div class="form-group">
+                <input type="text" class="form-input" placeholder="Name" required>
+            </div>
+            
+            <div class="form-group">
+                <input type="email" class="form-input" placeholder="Email" required>
+            </div>
+            
+            <div class="form-group date-input">
+                <input type="text" class="form-input" placeholder="Date" required>
+            </div>
+            
+            <div class="form-group">
+                <textarea class="form-input textarea-input" placeholder="Comments" rows="5"></textarea>
+            </div>
+            
+            <button type="submit" class="book-button">Book Now!</button>
+        </form>
+    </div>
+</div>
+
+
+<!-- Special offers  -->
+
+<div class="special-offers-container">
+        <!-- Offers content -->
+        <div class="offers-content">
+            
+        <div class="title-accent"></div>
+            <div class="section-header">From the Menu</div>
+            <h1 class="main-title">Special Offers</h1>
+            
+            <div class="offer-item">
+                <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&h=400&fit=crop" alt="Fish Curry" class="offer-image">
+                <div class="offer-details">
+                    <h3 class="offer-name">Fish Curry</h3>
+                    <p class="offer-description">Lorem ipsum dolor sit amet, consectetur Vesti ullamcorper.</p>
+                </div>
+                <div class="price-section">
+                    <span class="current-price">₹249</span>
+                    <span class="original-price">₹599</span>
+                </div>
+            </div>
+            
+            <div class="offer-item">
+                <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=400&fit=crop" alt="Chicken Tikka" class="offer-image">
+                <div class="offer-details">
+                    <h3 class="offer-name">Chicken Tikka</h3>
+                    <p class="offer-description">Lorem ipsum dolor sit amet, consectetur Vesti ullamcorper.</p>
+                </div>
+                <div class="price-section">
+                    <span class="current-price">₹499</span>
+                    <span class="original-price">₹999</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Food gallery -->
+        <div class="food-gallery">
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1728318553931-4cf84ce47d86?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Food 1" class="gallery-image">
+                <img src="https://images.unsplash.com/photo-1625943555419-56a2cb596640?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Food 2" class="gallery-image">
+                <img src="https://images.unsplash.com/photo-1620894580123-466ad3a0ca06?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Food 3" class="gallery-image">
+                <img src="https://images.unsplash.com/photo-1627366422957-3efa9c6df0fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Food 4" class="gallery-image">
+            </div>
+            <div class="center-logo">
+                <i class='bx  bx-fork-knife' ></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+
+    <section class="testimonials-section">
+        <div class="testimonials-content">
+            <div class="section-header">
+                <div class="food-lover-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="section-title-small">Food Lover</div>
+                <h1 class="section-title-main">Customer Feedback</h1>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">❞</div>
+                    <p class="testimonial-text">
+                        Nunc ullamcorper augue nec accumsan porta. Ut lacinia fgiat viverra. Ut dictum turpis in ipsum sagittis finibus.
+                    </p>
+                    <div class="customer-info">
+                        <div class="customer-name">Frinton Van</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">❞</div>
+                    <p class="testimonial-text">
+                        Nunc ullamcorper augue nec accumsan porta. Ut lacinia fgiat viverra. Ut dictum turpis in ipsum sagittis finibus.
+                    </p>
+                    <div class="customer-info">
+                        <div class="customer-name">Anna Van</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">❞</div>
+                    <p class="testimonial-text">
+                        Nunc ullamcorper augue nec accumsan porta. Ut lacinia fgiat viverra. Ut dictum turpis in ipsum sagittis finibus.
+                    </p>
+                    <div class="customer-info">
+                        <div class="customer-name">Filipe Van</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-avatars">
+                <img src="https://images.unsplash.com/photo-1625850902501-cc6baef3e3b2?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Frinton Van" class="customer-avatar">
+                <img src="https://images.unsplash.com/photo-1513673054901-2b5f51551112?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Anna Van" class="customer-avatar">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" alt="Filipe Van" class="customer-avatar">
+            </div>
+
+            <!-- Mobile Layout -->
+            <div class="testimonial-item">
+                <div class="testimonial-card">
+                    <div class="quote-icon">❞</div>
+                    <p class="testimonial-text">
+                        Nunc ullamcorper augue nec accumsan porta. Ut lacinia fgiat viverra. Ut dictum turpis in ipsum sagittis finibus.
+                    </p>
+                    <div class="customer-info">
+                        <div class="customer-name">Frinton Van</div>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1625850902501-cc6baef3e3b2?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Frinton Van" class="customer-avatar">
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-card">
+                    <div class="quote-icon">❞</div>
+                    <p class="testimonial-text">
+                        Nunc ullamcorper augue nec accumsan porta. Ut lacinia fgiat viverra. Ut dictum turpis in ipsum sagittis finibus.
+                    </p>
+                    <div class="customer-info">
+                        <div class="customer-name">Anna Van</div>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1513673054901-2b5f51551112?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Anna Van" class="customer-avatar">
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-card">
+                    <div class="quote-icon">❞</div>
+                    <p class="testimonial-text">
+                        Nunc ullamcorper augue nec accumsan porta. Ut lacinia fgiat viverra. Ut dictum turpis in ipsum sagittis finibus.
+                    </p>
+                    <div class="customer-info">
+                        <div class="customer-name">Filipe Van</div>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" alt="Filipe Van" class="customer-avatar">
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics  -->
+
+    <section class="statistics-section">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-circle">
+                    <span class="stat-number">220+</span>
+                </div>
+                <div class="stat-label">Best Dishes</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-circle">
+                    <span class="stat-number">50+</span>
+                </div>
+                <div class="stat-label">Awards Won</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-circle">
+                    <span class="stat-number">80+</span>
+                </div>
+                <div class="stat-label">Our Chefs</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-circle">
+                    <span class="stat-number">200+</span>
+                </div>
+                <div class="stat-label">Daily Customers</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <div class="newsletter-icon">
+                <svg viewBox="0 0 24 24">
+                    <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+                </svg>
+            </div>
+            
+            <h2 class="newsletter-title">Subscribe to our Newsletter</h2>
+            
+            <p class="newsletter-description">
+                Lorem sit amet, octeti isinit. Vestibulum vel sum er,<br>
+                suscipieros quis by lorem.
+            </p>
+            
+            <div class="subscription-container">
+                <input 
+                    type="email" 
+                    class="email-input" 
+                    placeholder="Enter your Email"
+                    name="email"
+                >
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+            
+            <p class="privacy-text">
+                Your Email is safe with us. We won't spam you.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer-main">
+        <div class="footer-container">
+            <!-- Food Lover Section -->
+            <div class="brand-section">
+                <h2>Food Lover</h2>
+                <p>Lorem sit amet, octetur isinit. Vestibulum vel sum er, suscipieros quis by lorem.</p>
+                <p>Sed ventis nisl a auris laoreet at necint lectus volutpat. Etiam.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <!-- Opening Hours Section -->
+            <div class="hours-section">
+                <h3>Opening Hours</h3>
+                <ul class="hours-list">
+                    <li>
+                        <span class="day">MONDAY:</span>
+                        <span class="time closed">Closed</span>
+                    </li>
+                    <li>
+                        <span class="day">TUE - FRI</span>
+                        <span class="separator">--------</span>
+                        <span class="time">10 am - 9 pm</span>
+                    </li>
+                    <li>
+                        <span class="day">SATURDAY</span>
+                        <span class="separator">--------</span>
+                        <span class="time">10 am - 11 pm</span>
+                    </li>
+                    <li>
+                        <span class="day">SUNDAY</span>
+                        <span class="separator">---------</span>
+                        <span class="time">10 am - 12 pm</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Latest Tweets Section -->
+            <div class="tweets-section">
+                <h3>Latest Tweets</h3>
+                <div class="tweet">
+                    <div class="tweet-content">
+                        <span class="tweet-icon"><i class="fa-brands fa-twitter"></i></span>
+                        <div class="tweet-text">
+                            Sed ventis nisl a cui at necint otus volutpat. <a href="#" class="tweet-link">https://twitter.com</a>
+                        </div>
+                    </div>
+                    <div class="tweet-time">2 Hours ago</div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-content">
+                        <span class="tweet-icon"><i class="fa-brands fa-twitter"></i></span>
+                        <div class="tweet-text">
+                            Sed ventis nisl a au at necint otus volutpat. <a href="#" class="tweet-link">https://twitter.com</a>
+                        </div>
+                    </div>
+                    <div class="tweet-time">5 Hours ago</div>
+                </div>
+            </div>
+
+            <!-- Instagram Section -->
+            <div class="instagram-section">
+                <h3>Instagram</h3>
+                <div class="instagram-grid">
+                    <div class="instagram-item food-1">
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image1">
+                    </div>
+                    <div class="instagram-item food-2">
+                        <img src="https://images.unsplash.com/photo-1552611052-33e04de081de?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image2">
+                    </div>
+                    <div class="instagram-item food-3">
+                        <img src="https://plus.unsplash.com/premium_photo-1695411846373-029540fbdb86?q=80&w=884&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image3">
+                    </div>
+                    <div class="instagram-item food-4">
+                        <img src="https://images.unsplash.com/photo-1717588874169-da2ba5ec3ec2?q=80&w=855&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image4">
+                    </div>
+                    <div class="instagram-item food-5">
+                        <img src="https://images.unsplash.com/photo-1625398407796-82650a8c135f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D" alt="image5">
+                    </div>
+                    <div class="instagram-item food-6">
+                        <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?q=80&w=1021&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright-section">
+        <p class="copyright-text">Copyright 2022 © Food Lover Restaurant</p>
+    </div>
+
+</body>
+</html>
